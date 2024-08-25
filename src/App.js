@@ -80,19 +80,19 @@ const TaktBoard = () => {
 
    <div className="mt-4 overflow-x-auto">
    <div className="grid grid-cols-8 gap-x-2 text-center text-xl font-bold">
-    <div className="bg-gradient-to-r from-[#C376FF] to-[#516BF4] p-3 rounded-md col-span-1 text-white py-6 border border-[#383a6a]">HOUR TABLE</div>
+    <div className="bg-gradient-to-r from-[#C376FF] to-[#516BF4] p-3 rounded-md col-span-1 text-white border border-[#383a6a]">HOUR TABLE</div>
     <div className="col-span-4">
       <div className="grid grid-cols-3">
-        <div className="bg-[#00F0FF] py-6 border rounded-l-md border-[#383a6a]">TARGET (Units)</div>
-        <div className="bg-[#00F0FF] py-6 border border-[#383a6a]">ACTUAL (Units)</div>
-        <div className="bg-[#00F0FF] py-6 border rounded-r-md border-[#383a6a]">VARIANCE (Units)</div>
+        <div className="bg-[#00F0FF] py-3 border rounded-l-md border-[#383a6a]">TARGET (Units)</div>
+        <div className="bg-[#00F0FF] py-3 border border-[#383a6a]">ACTUAL (Units)</div>
+        <div className="bg-[#00F0FF] py-3 border rounded-r-md border-[#383a6a]">VARIANCE (Units)</div>
       </div>
     </div>
     <div className="col-span-3">
       <div className="grid grid-cols-3">
-        <div className="bg-[#00F0FF] py-6 border rounded-l-md text-black border-[#383a6a]">CUMULATIVE (TAR)</div>
-        <div className="bg-[#00F0FF] py-6 border text-black border-[#383a6a]">CUMULATIVE (ACT)</div>
-        <div className="bg-[#00F0FF] py-6 border rounded-r-md text-black border-[#383a6a]">REASON</div>
+        <div className="bg-[#00F0FF] py-3 border rounded-l-md text-black border-[#383a6a]">CUMULATIVE (TAR)</div>
+        <div className="bg-[#00F0FF] py-3 border text-black border-[#383a6a]">CUMULATIVE (ACT)</div>
+        <div className="bg-[#00F0FF] py-3 border rounded-r-md text-black border-[#383a6a]">REASON</div>
       </div>
     </div>
 
