@@ -40,7 +40,7 @@ const TaktBoard = () => {
   </svg>
       </div>
 
-      <div className="mt-4 bg-[#303e6f] p-4 rounded-md font-bold text-white">
+      <div className="mt-4 bg-[#303e6f] p-2 rounded-md font-bold text-white">
   <div className="flex flex-wrap justify-between items-center">
   <div className="flex items-center mr-4">
       <p className="text-xl font-bold mr-2">Date :</p>
@@ -78,7 +78,7 @@ const TaktBoard = () => {
 </div>
 
 
-   <div className="mt-4 overflow-x-auto">
+   <div className="mt-2 overflow-x-auto">
    <div className="grid grid-cols-8 gap-x-2 text-center text-xl font-bold">
     <div className="bg-gradient-to-r from-[#C376FF] to-[#516BF4] p-3 rounded-md col-span-1 text-white border border-[#383a6a]">HOUR TABLE</div>
     <div className="col-span-4">
@@ -120,7 +120,7 @@ const TaktBoard = () => {
 </div>
 
 </div>
-<div className="mt-8 text-center">
+<div className="mt-3 text-center">
         <p className="bg-gradient-to-r from-purple-600 to-purple-800 text-white p-2 rounded-md inline-block text-base font-semibold">LINE STARTED AT:</p>
       </div>
 
