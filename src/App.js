@@ -129,9 +129,9 @@ const TaktBoard = () => {
     </div>
     <div className="col-span-3">
       <div className="grid grid-cols-3 ">
-        <div className="bg-[#00F0FF] p-2 rounded-l-md text-black border-[#383a6a]">CUMULATIVE TARGET</div>
-        <div className="bg-[#00F0FF] p-2 text-black border-[#383a6a]">CUMULATIVE ACTUAL</div>
-        <div className="bg-[#00F0FF] p-2 rounded-r-md text-black border-[#383a6a]">REASON FOR VARIANCE</div>
+        <div className="bg-[#00F0FF] p-2 border rounded-l-md text-black border-[#383a6a]">CUMULATIVE <br /> TARGET</div>
+        <div className="bg-[#00F0FF] p-2 border text-black border-[#383a6a]">CUMULATIVE <br /> ACTUAL</div>
+        <div className="bg-[#00F0FF] p-2 border rounded-r-md text-black border-[#383a6a]">REASON FOR <br /> VARIANCE</div>
       </div>
     </div>
 
